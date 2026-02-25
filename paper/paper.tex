@@ -2,7 +2,7 @@
 
 \usepackage{amsmath,amssymb}
 \usepackage{graphicx}
-\usepackage{natbib}
+% natbib is already loaded by aastex631 -- do NOT load again
 \usepackage{hyperref}
 
 \shorttitle{Resolving the JWST High-z Galaxy Excess}
@@ -281,26 +281,7 @@ The coincidence of $z_{\rm pivot} \approx 7.7$ with the end of reionization prov
 
 This work made use of the \textsc{colossus} \citep{Diemer2018} and \textsc{scipy} \citep{Virtanen2020} Python packages. UV luminosity function data are compiled from \citet{Bouwens2021}, \citet{Finkelstein2024}, \citet{Harikane2023}, and \citet{Donnan2023}.
 
-\begin{thebibliography}{99}
-\bibitem[Bouwens et al.(2021)]{Bouwens2021} Bouwens, R.~J., et al.\ 2021, AJ, 162, 47
-\bibitem[Boylan-Kolchin(2023)]{BoylanKolchin2023} Boylan-Kolchin, M.\ 2023, Nature Astronomy, 7, 731
-\bibitem[Carniani et al.(2024)]{Carniani2024} Carniani, S., et al.\ 2024, Nature, 633, 318
-\bibitem[Diemer(2018)]{Diemer2018} Diemer, B.\ 2018, ApJS, 239, 35
-\bibitem[Donnan et al.(2023)]{Donnan2023} Donnan, C.~T., et al.\ 2023, MNRAS, 518, 6011
-\bibitem[Fakhouri et al.(2010)]{Fakhouri2010} Fakhouri, O., Ma, C.-P., \& Boylan-Kolchin, M.\ 2010, MNRAS, 406, 2267
-\bibitem[Ferrara et al.(2023)]{Ferrara2023} Ferrara, A., Pallottini, A., \& Dayal, P.\ 2023, MNRAS, 522, 3986
-\bibitem[Finkelstein et al.(2023)]{Finkelstein2023} Finkelstein, S.~L., et al.\ 2023, ApJL, 946, L13
-\bibitem[Finkelstein et al.(2024)]{Finkelstein2024} Finkelstein, S.~L., et al.\ 2024, ApJL, 969, L2
-\bibitem[Forconi et al.(2024)]{Forconi2024} Forconi, M., et al.\ 2024, JCAP, 2024, 097
-\bibitem[Harikane et al.(2023)]{Harikane2023} Harikane, Y., et al.\ 2023, ApJS, 265, 5
-\bibitem[Kannan et al.(2023)]{Kannan2023} Kannan, R., et al.\ 2023, MNRAS, 524, 2594
-\bibitem[Kennicutt \& Evans(2012)]{Kennicutt2012} Kennicutt, R.~C., \& Evans, N.~J.\ 2012, ARA\&A, 50, 531
-\bibitem[Kugel et al.(2023)]{Kugel2023} Kugel, R., et al.\ 2023, MNRAS, 526, 6103
-\bibitem[Menci et al.(2024)]{Menci2024} Menci, N., et al.\ 2024, JCAP, 2024, 072
-\bibitem[Schaye et al.(2023)]{Schaye2023} Schaye, J., et al.\ 2023, MNRAS, 526, 4978
-\bibitem[Storn \& Price(1997)]{Storn1997} Storn, R., \& Price, K.\ 1997, J. Global Optimization, 11, 341
-\bibitem[Tinker et al.(2008)]{Tinker2008} Tinker, J., et al.\ 2008, ApJ, 688, 709
-\bibitem[Virtanen et al.(2020)]{Virtanen2020} Virtanen, P., et al.\ 2020, Nature Methods, 17, 261
-\end{thebibliography}
+\bibliographystyle{aasjournal}
+\bibliography{refs}
 
 \end{document}
