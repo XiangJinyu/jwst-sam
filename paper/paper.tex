@@ -40,7 +40,7 @@ In this work, we address this question using a lightweight semi-analytic model (
     \item \textbf{Reduced feedback at low metallicity}: In metal-poor environments characteristic of $z > 10$ galaxies, supernova-driven winds are less efficient at expelling gas from halos, due to reduced radiation pressure on dust and less efficient cooling in wind-driven shocks.
 \end{enumerate}
 
-We demonstrate that this two-component modification produces UV LFs in excellent agreement with JWST data at $z = 10$--16 while preserving consistency with well-established observations at $z = 4$--8.
+We demonstrate that this two-component modification produces UV LFs in excellent agreement with JWST data at $z = 10$--16 while preserving consistency with well-established observations at $z = 4$--8. The model is described in Section~\ref{sec:model}, calibration in Section~\ref{sec:calibration}, results in Section~\ref{sec:results}, and discussion in Section~\ref{sec:discussion}.
 
 \section{Model}
 \label{sec:model}
@@ -193,7 +193,14 @@ To assess the relative importance of each model component, we performed an ablat
     \end{tabular}
 \end{table}
 
-The redshift-dependent SFE is the dominant mechanism, reducing $\chi^2_{\rm red}(z \geq 10)$ from 79.1 to 3.7 (a 95.3\% improvement). Feedback weakening alone has minimal impact (79.1 $\to$ 60.5) but provides essential complementary improvement when combined with the SFE boost (3.7 $\to$ 0.41).
+The redshift-dependent SFE is the dominant mechanism, reducing $\chi^2_{\rm red}(z \geq 10)$ from 79.1 to 3.7 (a 95.3\% improvement). Feedback weakening alone has minimal impact (79.1 $\to$ 60.5) but provides essential complementary improvement when combined with the SFE boost (3.7 $\to$ 0.41). The ablation results are further visualized in Figure~\ref{fig:ablation}.
+
+\begin{figure*}[t]
+    \centering
+    \includegraphics[width=\textwidth]{../figures/fig3_ablation.pdf}
+    \caption{Ablation study showing the reduced chi-squared ($\chi^2_{\rm red}$) for each model variant. Left: low-$z$ ($z = 4$--8) fit quality. Center: high-$z$ ($z = 10$--16) fit quality. Right: overall fit quality. The green dashed line marks $\chi^2_{\rm red} = 1$. The full proposed model achieves the best overall performance, with the redshift-dependent SFE providing the dominant improvement at high $z$.}
+    \label{fig:ablation}
+\end{figure*}
 
 \subsection{Sensitivity Analysis}
 
