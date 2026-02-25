@@ -19,7 +19,7 @@ The best-fit pivot redshift z_pivot ~ 7.7 coincides with the end of cosmic reion
 
 ## Paper
 
-- **PDF**: [`jwst_sem.pdf`](jwst_sem.pdf)
+- **PDF**: [`jwst-sam.pdf`](jwst-sam.pdf)
 - **LaTeX source**: [`main.tex`](main.tex) + [`refs.bib`](refs.bib)
 
 ## Project Structure
